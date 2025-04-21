@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POE_PROG6221", "POE_PROG6221.csproj", "{A2416C1B-FC34-4F5C-95CA-2E5BF1E5D82C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2416C1B-FC34-4F5C-95CA-2E5BF1E5D82C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2416C1B-FC34-4F5C-95CA-2E5BF1E5D82C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2416C1B-FC34-4F5C-95CA-2E5BF1E5D82C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2416C1B-FC34-4F5C-95CA-2E5BF1E5D82C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2A568A9-1048-4606-A752-ED52AC059F37}
+	EndGlobalSection
+EndGlobal

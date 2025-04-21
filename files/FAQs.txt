@@ -1,0 +1,10 @@
+﻿Question: What is Cybersecurity?
+Answer: Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks. These cyberattacks are usually aimed at accessing, changing, or destroying sensitive information; extorting money from users; or interrupting normal business processes.
+Question: Why is Cybersecurity important?
+Answer: Cybersecurity is important because it helps protect sensitive data from being stolen or compromised, ensures the integrity of systems and networks, and maintains the trust of customers and stakeholders. In an increasingly digital world, strong cybersecurity measures are essential to safeguard personal and organizational information.
+Question: What should I do if I think I've been hacked?
+Answer: If you suspect that you've been hacked, immediately disconnect from the internet, change your passwords, and run a security scan on your devices. Report the incident to your IT department or a cybersecurity professional for further assistance.
+Question: What are the best practices for creating strong passwords?
+Answer: Use a combination of upper and lower case letters, numbers, and special characters. Avoid using easily guessable information like birthdays or common words. Use a password manager to help generate and store complex passwords securely.
+Question: How can I recognize phishing attempts?
+Answer: Phishing attempts often come in the form of unsolicited emails or messages that ask for personal information or direct you to a fake website. Look for signs such as poor grammar, generic greetings, and suspicious links. Always verify the sender's identity before clicking on any links or providing information.
