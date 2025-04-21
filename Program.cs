@@ -1,4 +1,8 @@
 ﻿#pragma warning disable CS8601,CS8602,CS8603,CS8604,CS8605,CS8618,CS8625,CS8632,CS8652
+using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.Reflection;
+using System.Text;
+
 namespace POE_PROG6221
 {
     class Program
@@ -10,7 +14,7 @@ namespace POE_PROG6221
           
            
             helloUser.Play("Hello.wav");
-
+            DisplayAsciiLogo();
             getName();
             FAQs();
             Console.WriteLine("----------------------------------");
@@ -93,6 +97,25 @@ namespace POE_PROG6221
                 }
             }
         }//response
+      
+        static void DisplayAsciiLogo()
+        {
+            Console.WriteLine(@"
+                 _________
+                |  _____  |   
+                | |stay | |  
+                | |safe | | 
+                | |_____| |  
+                |_________|
+               /___________\
+              |_____________|
+  
+  
+");
+
+
+        }
+
 
     }//Program
 }//POE
