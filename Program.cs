@@ -16,14 +16,13 @@ namespace POE_PROG6221
             helloUser.Play("Hello.wav");
             DisplayAsciiLogo();
             getName();
-            FAQs();
             Console.WriteLine("----------------------------------");
             Console.WriteLine("Ask Me A Simple Question:");
             question = Console.ReadLine();
             respond(question);
             Console.WriteLine(reply);
-
-
+            Console.WriteLine("----------------------------------");
+            FAQs();
         }//Main  
 
         static void getName()
