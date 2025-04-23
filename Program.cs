@@ -81,23 +81,26 @@ namespace POE_PROG6221
         }//FAQs 
         static void respond(string question)
         {
-           
-            string[] questionArray = { "How are you?", "What is your name?", "What is your purpose?" };
-            string[] replies = { "I am doing well, thank you!", "My name is CyberBot.", "I am here to assist you with cybersecurity awareness." };
-            for (int i = 0; i < questionArray.Length; i++)
+            Dictionary<string, string> responseDict = new()
+    {
+        { "name", "My name is CyberBot." },
+        { "purpose", "I am here to assist you with cybersecurity awareness." },
+        { "how", "I am doing well, thank you!" },
+        { "cybersecurity", "Cybersecurity is about protecting systems and data from threats!" }
+    };
+
+            reply = "I don't have an answer for that question.";
+
+            foreach (var keyword in responseDict.Keys)
             {
-                if (question.Equals(questionArray[i]))
+                if (question.ToLower().Contains(keyword.ToLower()))
                 {
-                    reply = replies[i];
+                    reply = responseDict[keyword];
                     break;
                 }
-                else
-                {
-                    reply = "I don't have an answer for that question.";
-                }
             }
-        }//response
-      
+        }//respond
+
         static void DisplayAsciiLogo()
         {
             Console.WriteLine(@"
@@ -108,9 +111,7 @@ namespace POE_PROG6221
                 | |_____| |  
                 |_________|
                /___________\
-              |_____________|
-  
-  
+              |_____________|  
 ");
 
 
