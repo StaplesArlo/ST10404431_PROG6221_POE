@@ -11,17 +11,18 @@ namespace POE_PROG6221
         static string question = string.Empty, reply = string.Empty;
         static void Main()
         {
-          
-           
+                 
             helloUser.Play("Hello.wav");
             DisplayAsciiLogo();
             getName();
             Console.WriteLine("----------------------------------");
-            Console.WriteLine("Ask Me A Simple Question:");
+            while (!question.Equals("exit")) { 
+            Console.WriteLine("Ask Me A Simple Question:('exit' to close)");
             question = Console.ReadLine();
             respond(question);
             Console.WriteLine(reply);
             Console.WriteLine("----------------------------------");
+            }
             FAQs();
         }//Main  
 
@@ -85,7 +86,9 @@ namespace POE_PROG6221
         { "name", "My name is CyberBot." },
         { "purpose", "I am here to assist you with cybersecurity awareness." },
         { "how", "I am doing well, thank you!" },
-        { "cybersecurity", "Cybersecurity is about protecting systems and data from threats!" }
+        { "cybersecurity", "Cybersecurity is about protecting systems and data from threats!" },
+        { "phishing","Phishing attempts often come in the form of unsolicited emails or messages that ask for personal information or direct you to a fake website. Look for signs such as poor grammar, generic greetings, and suspicious links. Always verify the sender's identity before clicking on any links or providing information." },
+        {"exit","Close Questions" }
     };
 
             reply = "I don't have an answer for that question.";
