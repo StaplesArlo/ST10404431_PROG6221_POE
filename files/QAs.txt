@@ -1,0 +1,24 @@
+﻿Keywords: cybersecurity, cybersec, security
+Response: Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks. These cyberattacks are usually aimed at accessing, changing, or destroying sensitive information; extorting money from users; or interrupting normal business processes.
+Keywords: important, importance
+Response: Cybersecurity is important because it helps protect sensitive data from being stolen or compromised, ensures the integrity of systems and networks, and maintains the trust of customers and stakeholders. In an increasingly digital world, strong cybersecurity measures are essential to safeguard personal and/or organisational information.
+Keywords: hacked, hack
+Response: If you suspect that you've been hacked, immediately disconnect from the internet, change your passwords, and run a security scan on your devices. Report the incident to your IT department or a cybersecurity professional for further assistance.
+Keywords: passwords, password, pswd
+Response: Use a combination of upper and lower case letters, numbers, and special characters. Avoid using easily guessable information like birthdays or common words. Use a password manager to help generate and store complex passwords securely.
+Keywords: phishing, email
+Response: Phishing attempts often come in the form of unsolicited emails or messages that ask for personal information or direct you to a fake website. Identify signs like: 1. Poor grammar, 2. Generic greetings, 3. Suspicious links. Always verify the sender's identity before clicking on any links or providing information.
+Keywords: malware, virus
+Response: Malware is malicious software designed to harm or exploit any programmable device or network. It includes viruses, worms, trojan horses, and ransomware. To protect against malware, use antivirus software, keep your operating system updated, and avoid downloading files from untrusted sources.
+Keywords: firewall, fire wall
+Response: A firewall is a network security device that monitors and controls incoming and outgoing network traffic based on predetermined security rules. It acts as a barrier between a trusted internal network and untrusted external networks, helping to prevent unauthorized access and cyber threats.
+Keywords: VPN, virtual private network
+Response: A VPN, or Virtual Private Network, is a service that creates a secure connection over the internet between your device and a remote server. It encrypts your data, masks your IP address, and allows you to browse the web anonymously, enhancing your online privacy and security.
+Keywords: two-factor authentication, 2FA, authentication
+Response: Two-factor authentication (2FA) is an extra layer of security used to ensure that people trying to gain access to an online account are who they say they are. It requires not only a password and username but also something that only the user has on them, such as a physical token or a mobile device.
+Keywords: data breach, breach
+Response: A data breach is an incident where unauthorized individuals gain access to sensitive, protected, or confidential data. This can include personal information, financial records, or intellectual property. Data breaches can occur due to hacking, insider threats, or accidental exposure.
+Keywords: encryption, encrypt
+Response: Encryption is the process of converting information or data into a code to prevent unauthorized access. It uses algorithms to transform readable data into an unreadable format, which can only be decrypted back into its original form with a specific key or password.
+Keywords: awareness, training
+Response: Cybersecurity awareness training is a program designed to educate employees about the importance of cybersecurity and how to recognize and respond to potential threats. It covers topics like phishing, password security, and safe internet practices to help reduce the risk of cyber incidents within an organization.
