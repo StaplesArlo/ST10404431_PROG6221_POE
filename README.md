@@ -25,7 +25,7 @@ The `FAQs.txt` file should follow this structure:
 4. Build the solution to restore dependencies.
 
 ## Usage
-1. Place your `FAQs.txt` file in the specified directory:
+1. Place your `QAs.txt` file in the specified directory:
 2. Run the application.
 3. Use the provided menu options to interact with the FAQs:
    - List all questions.
@@ -34,7 +34,7 @@ The `FAQs.txt` file should follow this structure:
 
 ## Requirements
 - **C# Version**: 12.0
-- **.NET Target**: .NET 8
+- **.NET Target**: .NET 9
 
 ## Error Handling
 If the file cannot be read, the application will display an error message with details about the issue.
