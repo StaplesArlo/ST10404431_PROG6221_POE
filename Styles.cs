@@ -3,7 +3,7 @@ using System;
 
 namespace Practice_PROG
 {
-     public class Styles
+    public class Styles
     {
         static int? colourIndex;
         public static string name; //Name Set In: Introduction class
@@ -12,7 +12,7 @@ namespace Practice_PROG
             Console.ForegroundColor = color;
         }
 
-       
+
         public static void ResetTextStyle()
         {
             Console.ResetColor();
@@ -51,7 +51,28 @@ namespace Practice_PROG
         {
             int consoleWidth = Console.WindowWidth;
             int padding = (consoleWidth - text.Length) / 2;
-            Console.WriteLine(text.PadLeft(padding + text.Length));
+
+            Console.SetCursorPosition(Math.Max(padding, 0), Console.CursorTop);
+            foreach (char c in text)
+            {
+                Console.Write(c);
+                Thread.Sleep(20);
+            }
+            Console.WriteLine();
+        }
+
+        public static void CenterArt(string text)
+        {
+            int consoleWidth = Console.WindowWidth;
+            int padding = (consoleWidth - text.Length) / 2;
+
+            Console.SetCursorPosition(Math.Max(padding, 0), Console.CursorTop);
+            foreach (char c in text)
+            {
+                Console.Write(c);
+                Thread.Sleep(8);
+            }
+            Console.WriteLine();
         }
     }
-}
+}//Styles

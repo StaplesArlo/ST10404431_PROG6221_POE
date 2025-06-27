@@ -7,7 +7,7 @@ namespace Practice_PROG
     {
         public static void homeArt(string name)
         {
-            CenterText($@"
+            CenterArt($@"
                             ________________________________________________
                            /                                                \
                           |    _________________________________________     |
